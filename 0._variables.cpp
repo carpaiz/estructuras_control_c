@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std;
+using namespace std; //std, donde se encuentra encerrada toda la librería estándar.
 main(){
 	//C++ es case-sensitive:   distinguen mayúsculas de minúsculas
 	//C++ es un lenguaje compilado y fuertemente tipado
