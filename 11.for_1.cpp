@@ -33,7 +33,20 @@ main(){
 			cout<<i<<endl;
 	}
 	 
-		
+		// int 4 bytes
+ 	int datos[]={8,12,35,200,1000};   //array initialization
+ 	//cout<<sizeof(datos)<<endl;
+ 	//cout<<sizeof(datos[0])<<endl;
+    int tama = (sizeof(datos)/sizeof(datos[0]));
+    
+    for (int i=0;i<tama;i++){
+    	cout<<datos[i]<<endl;
+	}
+	/*for( int i : datos) // Tool -> compiler options ->Settings -> Code Generation -> language standard (-std) : ISO c++ 1
+    {
+    	cout<<i<<endl;
+    }
+      */  	
 	
 system("pause");
 }
