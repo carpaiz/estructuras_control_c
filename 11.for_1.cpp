@@ -42,7 +42,7 @@ main(){
     for (int i=0;i<tama;i++){
     	cout<<datos[i]<<endl;
 	}
-	/*for( int i : datos) // Tool -> compiler options ->Settings -> Code Generation -> language standard (-std) : ISO c++ 1
+	/*for( int i : datos) // Tool -> compiler options ->Settings -> Code Generation -> language standard (-std) : ISO c++ 11
     {
     	cout<<i<<endl;
     }
